@@ -18,6 +18,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyDCGlRbZl_owi3cRkbRPoEayJuGV1ckqBQ",
+      authDomain: "traffic-tracker-70c62.firebaseapp.com",
+      databaseURL: "https://traffic-tracker-70c62.firebaseio.com",
+      projectId: "traffic-tracker-70c62",
+      storageBucket: "traffic-tracker-70c62.appspot.com",
+      messagingSenderId: "349205659983"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
