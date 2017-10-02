@@ -2,7 +2,7 @@
 
 ### Web application that allows users to track traffic on specified routes.
 
-## Created by 
+## Created by [Esther Mweru Muchai](https://github.com/mwerumuchai), [Gitu Mbugua](https://github.com/GituMbugua), [John Mutavi](https://github.com/jonnygovish) and [Carol Wanjohi](https://github.com/carolwanjohi)
 
 ## Description
 [This]() is a web application that allow users to track traffic on specified routes. The user can click on a specified route and will be directed to a page where they will see the amount of traffic on the specified route. The user can also post comment on the particular page about how the traffic is.
@@ -32,4 +32,4 @@ On the homepage, there will be a list of tweets from [Ma3Routes](https://twitter
 * Google API
 
 ## License
-MIT &copy;2017 ****
+MIT &copy;2017 **[Esther Mweru Muchai](https://github.com/mwerumuchai), [Gitu Mbugua](https://github.com/GituMbugua), [John Mutavi](https://github.com/jonnygovish) and [Carol Wanjohi](https://github.com/carolwanjohi)**
