@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('legend', {path: '/legend/:legend_id'});
 });
 
 export default Router;
