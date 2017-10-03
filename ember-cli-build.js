@@ -5,7 +5,11 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
+    'ember-bootstrap': {
+      bootstrapVersion: 3,
+      importBootstrapFont: true,
+      importBootstrapCSS: true
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -24,5 +28,8 @@ module.exports = function(defaults) {
   app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
   app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/bootstrap/dist/css/bootstrap-theme.css');
+  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
   return app.toTree();
 };

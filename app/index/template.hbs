@@ -1,0 +1,8 @@
+<h2>Welcome to Traffic Tracker</h2>
+<h2>Legends</h2>
+
+<ul class="list-unstyled">
+    {{#each model as |legend|}}
+        {{legend-tile legend=legend}}
+    {{/each}}
+</ul>

@@ -3,7 +3,11 @@
   "description": "Small description for traffic-tracker goes here",
   "main": "",
   "authors": [
+<<<<<<< HEAD
     "John <jonnygovish@gmail.com>"
+=======
+    "mwerumuchai <mwerumuchai@gmail.com>"
+>>>>>>> 83c4e7386304a4346a867958fdedc1ec8e19030f
   ],
   "license": "MIT",
   "homepage": "https://github.com/mwerumuchai/traffic-tracker",
@@ -13,8 +17,12 @@
     "bower_components",
     "test",
     "tests"
+<<<<<<< HEAD
   ],
   "dependencies": {
     "bootstrap": "^3.3.7"
   }
+=======
+  ]
+>>>>>>> 83c4e7386304a4346a867958fdedc1ec8e19030f
 }
