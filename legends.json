@@ -1,0 +1,69 @@
+{ "legends": [{
+    "legendName": "Nyayo - JKIA",
+    "startPoint": {
+        "lat":-1.3040436,
+        "lng":36.8246482
+    },
+    "endPoint": {
+        "lat":-1.3227102,
+        "lng":36.9260693
+    },
+    "legendDistance": 14
+    }, {
+    "legendName": "Nyayo - Rongai",
+    "startPoint": {
+        "lat":-1.3040436,
+        "lng":36.8246482
+    },
+    "endPoint": {
+        "lat":-1.3938636,
+        "lng":36.7442377
+    },
+    "legendDistance": 22
+    }, {
+    "legendName": "Lenana - Town",
+    "startPoint": {
+        "lat":-1.30843948,
+        "lng":36.7321229
+    },
+    "endPoint": {
+        "lat":-1.2855938,
+        "lng":36.8249832
+    },
+    "legendDistance": 13
+    }, {
+    "legendName": "Waiyaki Way - Town",
+    "startPoint": {
+        "lat":-1.259056,
+        "lng":36.786067
+    },
+    "endPoint": {
+        "lat":-1.2855938,
+        "lng":36.8249832
+    },
+    "legendDistance": 6
+    }, {
+    "legendName": "Thika Road- Town",
+    "startPoint": {
+        "lat":-1.2182373,
+        "lng":36.8910438
+    },
+    "endPoint": {
+        "lat":-1.2855938,
+        "lng":36.8249832
+    },
+    "legendDistance": 14
+    }, {
+    "legendName": "Town - Nyayo",
+    "startPoint": {
+        "lat":-1.2855938,
+        "lng":36.8249832
+    },
+    "endPoint": {
+        "lat":-1.3040436,
+        "lng":36.8246482
+    },
+    "legendDistance": 3
+    }]
+
+}
