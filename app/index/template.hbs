@@ -1,13 +1,12 @@
 <h2>Welcome to Traffic Tracker</h2>
-
 <div class="homepageMap">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1XtWfbE9K4hH7WMbojvhOeFsBY2M" width="640" height="480"></iframe>
-</div>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1XtWfbE9K4hH7WMbojvhOeFsBY2M&ll=-1.3076116048872033%2C36.812338350000005&z=12" width="640" height="480"></iframe>
 
-<h2>Transport Routes</h2>
+</div>
+<h2>Legends</h2>
 
 <ul class="list-unstyled">
-    {{#each model as |legend|}}
+    {{#each model.legends as |legend|}}
         {{legend-tile legend=legend}}
     {{/each}}
 </ul>
