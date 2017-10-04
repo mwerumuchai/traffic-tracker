@@ -34,6 +34,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
+    ENV.myTwitterApi = process.env.twitterApi;
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
