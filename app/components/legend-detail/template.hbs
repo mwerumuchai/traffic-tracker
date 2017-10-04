@@ -1,8 +1,7 @@
 <iframe src= {{legend.link}} width="300" height="480" frameborder="0" style="border:0" allowfullscreen></iframe> {{legend.legendName}}
 
 <ul>
-  {{#each legend.answers as |answer|}}
+  {{#each legend.reviews as |review|}}
     {{review-tile review=review}}
   {{/each}}
 </ul>
-{{new-review review=review saveAnswer="saveAnswer"}}
