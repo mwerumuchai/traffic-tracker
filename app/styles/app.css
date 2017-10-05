@@ -44,14 +44,33 @@
 }
 
 
+/*HomepageMap*/
+
+.homepageMap {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.homepageMap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
 /*Tweets on Homepage*/
 
 .wrapperTwitter {
-  height: 45em;
+  margin-top: 0;
+  height: 100vh;
 }
 
 .homepageTwitter {
-  height: 40em;
+  height: 100%;
   overflow: auto;
   text-align: center;
 }
