@@ -7,7 +7,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #000080;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -64,6 +64,10 @@
 
 /*Tweets on Homepage*/
 
+.col-md-4 {
+  padding: 0;
+}
+
 .wrapperTwitter {
   margin-top: 0;
   height: 100vh;
@@ -73,4 +77,9 @@
   height: 100%;
   overflow: auto;
   text-align: center;
+}
+
+#cover {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
