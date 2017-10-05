@@ -43,7 +43,6 @@
   }
 }
 
-
 /*HomepageMap*/
 
 .homepageMap {
@@ -60,7 +59,6 @@
   width: 100% !important;
   height: 100% !important;
 }
-
 
 /*Tweets on Homepage*/
 
@@ -82,4 +80,10 @@
 #cover {
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/*Style Map in Legend Page*/
+.legendMap{
+  height: 83vh;
+  width: 65vw;
 }

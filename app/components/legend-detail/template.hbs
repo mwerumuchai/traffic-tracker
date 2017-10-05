@@ -4,18 +4,15 @@
         
         <h3>{{legend.legendName}}</h3>
 
-        <iframe src= {{legend.link}} width="300" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>   
+        <iframe class="legendMap" src= {{legend.link}} width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
     
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 reviewColumn">
 
         <ul>
           {{#each legend.reviews as |review|}}
             {{review-tile review=review}}
-            <small>
-                on {{moment-format review.createdAt 'LLL'}}
-            </small>
           {{/each}}
         </ul>
 
