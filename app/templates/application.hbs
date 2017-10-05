@@ -4,12 +4,13 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {{#link-to 'index'}}<a>Home</a>{{/link-to}}
     <a data-toggle="modal" data-target="#aboutModal">About</a>
+    <h3>Route</h3>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
   <!-- About Modal -->
-  <div class="modal fade"  id="aboutModal" role="dialog">
+  <div class="modal fade" id="aboutModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -27,8 +28,5 @@
       </div>
     </div>
   </div>
-
-   <div class="container-fluid" id="main">
-     {{outlet}}
-   </div>
+  {{outlet}}
 </div>
