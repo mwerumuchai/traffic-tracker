@@ -1,48 +1,32 @@
 <div class="container-fluid">
 
   <div id="mySidenav" class="sidenav">
-
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-    <a>{{#link-to 'index'}}Home{{/link-to}}</a>
+    {{#link-to 'index'}}<a>Home</a>{{/link-to}}
     <a data-toggle="modal" data-target="#aboutModal">About</a>
-
-
-
+    <h3>Route</h3>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
   <!-- About Modal -->
   <div class="modal fade" id="aboutModal" role="dialog">
-
-    <div class="modal-dialog">
-
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-
         <div class="modal-header">
-
           <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-
           <h4 class="modal-title">About Traffic Tracker</h4>
-
         </div>
-
         <div class="modal-body">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+          <h4>Traffic Tracker is a simple application that helps users to not only be able to view various traffic routes and their status but also interract<br>
+          with other users on the specific route. We have provided an interractive social aspect i.e twitter and a comment section<br>
+        The comment section aids users to update on the route status e.g Road Accidents, traffic has cleared while the twitter section give users live updates from ma3Route twitter page </h4>
         </div>
-
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
-
       </div>
-
     </div>
-
   </div>
-
-   {{outlet}}
+  {{outlet}}
 </div>
