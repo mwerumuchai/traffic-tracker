@@ -1,4 +1,5 @@
 /*Side Bar Menu*/
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -42,12 +43,15 @@
   }
 }
 
+
 /*Tweets on Homepage*/
+
 .wrapperTwitter {
-    height: 15em;
+  height: 45em;
 }
 
 .homepageTwitter {
-    height: 10em;
-    overflow: auto;
+  height: 40em;
+  overflow: auto;
+  text-align: center;
 }
