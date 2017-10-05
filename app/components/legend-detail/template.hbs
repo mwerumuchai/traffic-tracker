@@ -3,5 +3,7 @@
 <ul>
   {{#each legend.reviews as |review|}}
     {{review-tile review=review}}
+    <br>
+    on {{moment-format review.createdAt 'LLL'}}
   {{/each}}
 </ul>
