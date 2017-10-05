@@ -1,10 +1,29 @@
-<iframe src= {{legend.link}} width="300" height="480" frameborder="0" style="border:0" allowfullscreen></iframe> {{legend.legendName}}
+<div class="row">
 
-<ul>
-  {{#each legend.reviews as |review|}}
-    {{review-tile review=review}}
-    <small>
-        on {{moment-format review.createdAt 'LLL'}}
-    </small>
-  {{/each}}
-</ul>
+    <div class="col-md-8">
+        
+        <h3>{{legend.legendName}}</h3>
+
+        <iframe src= {{legend.link}} width="300" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>   
+    
+    </div>
+
+    <div class="col-md-4">
+
+        <ul>
+          {{#each legend.reviews as |review|}}
+            {{review-tile review=review}}
+            <small>
+                on {{moment-format review.createdAt 'LLL'}}
+            </small>
+          {{/each}}
+        </ul>
+
+        {{new-review legend=legend saveAnswer="saveAnswer"}} 
+
+    </div>
+
+</div>
+
+
+
