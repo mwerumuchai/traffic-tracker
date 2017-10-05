@@ -2,7 +2,7 @@
 
     <div class="col-md-8">
         
-        <h3>{{legend.legendName}}</h3>
+        <h3 class="legendNameHeader">{{legend.legendName}}</h3>
 
         <iframe class="legendMap" src= {{legend.link}} width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>   
     
@@ -10,13 +10,17 @@
 
     <div class="col-md-4 reviewColumn">
 
-        <ul>
-          {{#each legend.reviews as |review|}}
-            {{review-tile review=review}}
-          {{/each}}
-        </ul>
+        <div class="reviewWrapper">
 
-        {{new-review legend=legend saveAnswer="saveAnswer"}} 
+            <ul class="list-unstyled">
+              {{#each legend.reviews as |review|}}
+                {{review-tile review=review}}
+              {{/each}}
+            </ul>
+
+            {{new-review legend=legend saveAnswer="saveAnswer"}} 
+            
+        </div>
 
     </div>
 

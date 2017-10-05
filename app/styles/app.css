@@ -83,7 +83,36 @@
 }
 
 /*Style Map in Legend Page*/
-.legendMap{
+.legendMap {
   height: 83vh;
   width: 65vw;
 }
+
+/*Style Reviews in Legend Page*/
+.legendNameHeader {
+  text-align: center;
+  color: #2B7BB9;
+}
+
+.reviewColumn {
+  width: 30vw;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.reviewWrapper {
+  height: 95%;
+  overflow: auto;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #2B7BB9;
+  border-radius: .4em;
+  color: #FDFEFE;
+}
+
+.textWrapper { 
+  padding-left: 1.5em;
+}
+
