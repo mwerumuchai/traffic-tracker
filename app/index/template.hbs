@@ -1,14 +1,16 @@
-<div class="row" id="main">
+
   <div class="col-md-8">
     <div class="row" id="cover">
       <div class="col-md-6" >
+        {{!-- <button id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button> --}}
+        <h1>Traffic Tracker</h1>
         <h1>Description</h1>
         <h3>This app allows one to get updates on traffic on different routes.<br>
         On the map below, there are 6 different routes that are shown. Pick one route one<br>
        the right and get real-time updates</h3>
       </div>
       <div class="col-md-2">
-        <h2>Legends</h2>
+        <h2>Routes</h2>
         <ul class="list-unstyled">
           {{#each model.legends as |legend|}}
             {{legend-tile legend=legend}}
@@ -24,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 twitterColumn">
     <div class="wrapperTwitter">
       <div class="homepageTwitter">
         <a class="twitter-timeline" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/Ma3Route?ref_src=twsrc%5Etfw">Tweets by Ma3Route</a>
@@ -32,4 +34,3 @@
       </div>
     </div>
   </div>
-</div>
