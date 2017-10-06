@@ -18,19 +18,25 @@ On the homepage, there will be a list of tweets from [Ma3Routes](https://twitter
 | A page for the specified route | **Click** a specified route | Redirected to the specified route page |
 | Display tweets on the homepage | N/A | List of tweets |
 | Display a map on the homepage | N/A | Google Map |
-| Display color coded map to show specified routes | N/A | Color coded map with specified routes |
-| Display legend with routes key | N/A | Legend with specific routes key |
 | Display the google map of the specified route | N/A | Map with the specific route|
 | Display the user comments about the route | N/A | User comments |
-| Display tweets of the specific route | N/A | Tweets from specific route |
 | Display a form for user comments | **Click Add Comment** button | Display form for user input |
 | Add user comments to the comment section | **Click Save** button | List of user comments |
 
+## Deployed site
+[Click here]() to go to the deployed site <br/>
+or <br>
+[Copy]() this and paste to your desired web browser
+
 ## Known Bugs
+No known bugs
+
 
 ## Technologies Used
 * Ember 
-* Google API
+* Firebase
+* Google 
+* Twitter
 
 ## Ember README.md
 
@@ -73,7 +79,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* To deploy on  **Firebase** you need to install **Firebase CLI**. Click [this link to Firebase CLI Reference](https://firebase.google.com/docs/cli/) and follow the set up and deployment instructions. </br>
+  or
+* Deploy on **Heroku**. Click [this link to Heoku Deployment](https://devcenter.heroku.com/categories/deployment), select one of the options listed and follow the set up and deployment instructions.
 
 ### Further Reading / Useful Links
 
