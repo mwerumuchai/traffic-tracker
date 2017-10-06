@@ -34,15 +34,6 @@
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
 /*HomepageMap*/
 
 .homepageMap {
@@ -117,3 +108,57 @@
   padding-left: 1.5em;
 }
 
+/*Media Queries on Home page and Legend Page*/
+
+/*Small screen phone*/
+@media screen and (max-width: 375px) {
+  .legendMap {
+    width: 90vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+  .descriptionHeader, .routesHeader {
+    font-size: 2em;
+  }
+  .descriptionDetail, .routesList {
+    font-size: 1em;
+  }
+}
+
+/*Large screen phone*/
+@media screen and (max-width: 425px) {
+  .legendMap {
+    width: 95vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+
+  .descriptionDetail, .routesList {
+    font-weight: 500;
+  }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  .legendMap {
+    width: 96vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+
+  .descriptionDetail, .routesList {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
