@@ -62,7 +62,7 @@
 
 /*Tweets on Homepage*/
 
-.col-md-4 {
+.twitterColumn {
   padding: 0;
 }
 
@@ -83,16 +83,17 @@
 }
 
 /*Style Map in Legend Page*/
+.legendNameHeader {
+  text-align: center;
+  color: #2B7BB9;
+}
+
 .legendMap {
   height: 83vh;
   width: 65vw;
 }
 
 /*Style Reviews in Legend Page*/
-.legendNameHeader {
-  text-align: center;
-  color: #2B7BB9;
-}
 
 .reviewColumn {
   width: 30vw;
