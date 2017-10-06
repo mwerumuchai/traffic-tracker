@@ -1,3 +1,35 @@
+.appName {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #145A32;
+}
+
+.appName:link {
+  color: #145A32;
+  text-decoration: none;
+}
+
+.appName:visited {
+  color: #145A32;
+  text-decoration: none;
+}
+
+.appName:hover {
+  color: #145A32;
+}
+
+.appName:active {
+  color: #145A32;
+}
+
+#hamburger {
+  margin-top: 5px;
+  padding-top: 10px;
+  float: left;
+}
+
+
 /*Side Bar Menu*/
 
 .sidenav {
@@ -22,6 +54,7 @@
   color: #FDFEFE;
   display: block;
   transition: 0.3s;
+  font-family: 'Playfair Display', serif;
 }
 
 .sidenav a:hover {
@@ -37,6 +70,32 @@
 }
 
 
+/*Navbar */
+
+.navbar-header li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.descriptionDetail, .routesList, .reviewContent, .modal-body, .reviewAuthor {
+  font-size: 30px;
+  font-family: ‘EB Garamond’, serif;
+}
+
+.descriptionHeader, .routesHeader, .legendNameHeader, .modal-title {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.reviewAuthor {
+  font-size: 20px;
+}
+
+.modalContent {
+  font-size: 25px;
+}
+
+
 /*.routeSideNav {
   color: #fff;
   font-size: 3em;
@@ -49,12 +108,12 @@
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   width: 12vw;
+  font-family: ‘EB Garamond’, serif;
 }
 
 .nyayoRoute.btn:hover, .rongaiRoute.btn:hover, .lenanaRoute.btn:hover, .safaricomRoute.btn:hover, .roysambuRoute.btn:hover, .universityRoute.btn:hover {
@@ -249,6 +308,12 @@
   .descriptionDetail, .routesList {
     font-size: 1em;
   }
+  .appName {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #145A32;
+  }
 }
 
 
@@ -263,6 +328,12 @@
   }
   .descriptionDetail, .routesList {
     font-weight: 500;
+  }
+  .appName {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    color: #145A32;
   }
 }
 
@@ -279,6 +350,12 @@
   .descriptionDetail, .routesList {
     font-weight: 600;
   }
+  .appName {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #145A32;
+  }
 }
 
 @media screen and (max-height: 450px) {
@@ -287,5 +364,11 @@
   }
   .sidenav a {
     font-size: 18px;
+  }
+  .appName {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    color: #145A32;
   }
 }
