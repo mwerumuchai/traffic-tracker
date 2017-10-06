@@ -7,7 +7,9 @@
     <h3>Route</h3>
   </div>
 
-  <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span class="hidden-sm hidden-xs" id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
 
   <!-- About Modal -->
   <div class="modal fade" id="aboutModal" role="dialog">
@@ -28,5 +30,7 @@
       </div>
     </div>
   </div>
+<div class="row" id="main">
   {{outlet}}
+</div>
 </div>
