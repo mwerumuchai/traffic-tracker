@@ -1,5 +1,14 @@
-<li>
-  <h4>{{review.comment}}</h4>
-  <small> By: {{review.userName}} 
-  </small>
-</li>
+<div class="speech-bubble">
+
+    <div class="textWrapper">
+        
+        <li>
+            <h4>{{moment-format review.createdAt 'YYYY-MM-DD h:mm A'}} : {{review.comment}}</h4>
+            <small> By: {{review.userName}} 
+            </small>
+        </li> 
+
+    </div>
+    
+</div>
+

@@ -34,16 +34,6 @@
   margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-
 /*HomepageMap*/
 
 .homepageMap {
@@ -61,10 +51,9 @@
   height: 100% !important;
 }
 
-
 /*Tweets on Homepage*/
 
-.col-md-4 {
+.twitterColumn {
   padding: 0;
 }
 
@@ -82,4 +71,94 @@
 #cover {
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/*Style Map in Legend Page*/
+.legendNameHeader {
+  text-align: center;
+  color: #2B7BB9;
+}
+
+.legendMap {
+  height: 83vh;
+  width: 65vw;
+}
+
+/*Style Reviews in Legend Page*/
+
+.reviewColumn {
+  width: 30vw;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.reviewWrapper {
+  height: 95%;
+  overflow: auto;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #2B7BB9;
+  border-radius: .4em;
+  color: #FDFEFE;
+}
+
+.textWrapper { 
+  padding-left: 1.5em;
+}
+
+/*Media Queries on Home page and Legend Page*/
+
+/*Small screen phone*/
+@media screen and (max-width: 375px) {
+  .legendMap {
+    width: 90vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+  .descriptionHeader, .routesHeader {
+    font-size: 2em;
+  }
+  .descriptionDetail, .routesList {
+    font-size: 1em;
+  }
+}
+
+/*Large screen phone*/
+@media screen and (max-width: 425px) {
+  .legendMap {
+    width: 95vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+
+  .descriptionDetail, .routesList {
+    font-weight: 500;
+  }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  .legendMap {
+    width: 96vw;
+  }
+  .reviewColumn {
+    width: 100vw;
+  }
+
+  .descriptionDetail, .routesList {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
