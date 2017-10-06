@@ -6,7 +6,7 @@
 ## Created by [Esther Muchai](https://github.com/mwerumuchai), [Gitu Mbugua](https://github.com/GituMbugua), [John Mutavi](https://github.com/jonnygovish) and [Carol Wanjohi](https://github.com/carolwanjohi)
 
 ## Description
-[This]() is a web application that allow users to track traffic on specified routes. The user can click on a specified route and will be directed to a page where they will see the amount of traffic on the specified route. The user can also post comment on the particular page about how the traffic is.
+[This](https://traffic-tracker-70c62.firebaseapp.com) is a web application that allow users to track traffic on specified routes. The user can click on a specified route and will be directed to a page where they will see the amount of traffic on the specified route. The user can also post comment on the particular page about how the traffic is.
 On the homepage, there will be a list of tweets from [Ma3Routes](https://twitter.com/Ma3Route?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor). On the selected route, there will be filtered tweets about it. 
 
 ## Specifications
@@ -24,9 +24,9 @@ On the homepage, there will be a list of tweets from [Ma3Routes](https://twitter
 | Add user comments to the comment section | **Click Save** button | List of user comments |
 
 ## Deployed site
-[Click here]() to go to the deployed site <br/>
+[Click here](https://traffic-tracker-70c62.firebaseapp.com) to go to the deployed site <br/>
 or <br>
-[Copy]() this and paste to your desired web browser
+[Copy](https://traffic-tracker-70c62.firebaseapp.com) this and paste to your desired web browser
 
 ## Known Bugs
 No known bugs
