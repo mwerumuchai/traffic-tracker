@@ -6,7 +6,15 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {{#link-to 'index'}}<a>Home</a>{{/link-to}}
     <a data-toggle="modal" data-target="#aboutModal">About</a>
-    <h3>Route</h3>
+    <h3 class="routeSideNav">Routes</h3>
+    <ul>
+      {{#link-to 'legend' 0}}<h3 class="btn nyayoRoute">Nyayo - JKIA</h3>{{/link-to}}
+      {{#link-to 'legend' 1}}<h3 class="btn rongaiRoute">Nyayo - Rongai</h3>{{/link-to}}
+      {{#link-to 'legend' 2}}<h3 class="btn lenanaRoute">Lenana - Town</h3>{{/link-to}}
+      {{#link-to 'legend' 3}}<h3 class="btn safaricomRoute">Safaricom Stage - Town</h3>{{/link-to}}
+      {{#link-to 'legend' 4}}<h3 class="btn roysambuRoute">Roysambu - Town</h3>{{/link-to}}
+      {{#link-to 'legend' 5}}<h3 class="btn universityRoute">University Way - Nyayo</h3>{{/link-to}}
+    </ul>
   </div>
 
   <span class="hidden-sm hidden-xs" id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
